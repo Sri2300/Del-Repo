@@ -1,0 +1,26 @@
+.loader-wrapper{
+width:150px;
+height:150px;
+top:35px;
+left:35px;
+display:6Inch;
+position:absolute;
+}
+
+.loader{
+weight:70px;
+height:70px;
+border:10px solid #ccc;
+border-radius:100%;
+bordertop-color:#345566;
+animation:spin 2s linear infinite;
+}
+
+@keyframes sin {
+from{
+   transform : rotate(0deg)
+}
+to{
+ transform: rotate(360deg)
+}
+}
